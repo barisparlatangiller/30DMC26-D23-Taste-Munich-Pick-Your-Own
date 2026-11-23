@@ -284,9 +284,9 @@
   "precision": "locality",
   "url": "https://erdbeeren-wolf.de",
   "source": "in-muenchen.de 2026; mitvergnuegen 2026",
-  "lat": null,
-  "lon": null,
-  "geocoded": "none"
+  "lat": 48.3015966,
+  "lon": 11.1727255,
+  "geocoded": "locality"
  },
  {
   "id": "storz_wieling",
@@ -352,9 +352,9 @@
   "precision": "locality",
   "url": "https://eberle-gaerten.de",
   "source": "mitvergnuegen 2026",
-  "lat": null,
-  "lon": null,
-  "geocoded": "none"
+  "lat": 48.0818778,
+  "lon": 11.328717,
+  "geocoded": "locality"
  },
  {
   "id": "eberle_buchendorf",
