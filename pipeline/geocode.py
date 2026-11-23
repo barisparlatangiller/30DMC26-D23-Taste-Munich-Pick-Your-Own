@@ -38,7 +38,8 @@ def main(src, out):
     res = []
     for r in rows:
         town = r["town"]; city = town.split("-")[0] if town.startswith("München") else town.split(" (")[0]
-        t = nom(q=f"{town.replace('München-', '')}, {'München' if town.startswith('München') else ''} Bayern") or nom(q=town)
+        FIX = {"Wagenhofen (Egenhofen)": "Wagenhofen, Egenhofen, Fürstenfeldbruck", "Frohnloh (Gauting)": "Frohnloh, Gauting, Starnberg"}
+        t = (nom(q=FIX[town]) if town in FIX else None) or nom(q=f"{town.replace('München-', '')}, {'München' if town.startswith('München') else ''} Bayern") or nom(q=town)
         lat = lon = None; how = "none"
         if r["precision"] == "crossing" and t:
             q = f'[out:json][timeout:60];way(around:4000,{t["lat"]},{t["lon"]})["name"="{r["q1"]}"]->.a;way(around:4000,{t["lat"]},{t["lon"]})["name"="{r["q2"]}"]->.b;node(w.a)(w.b);out;'
@@ -67,6 +68,14 @@ def main(src, out):
     o = ovp(q)
     json.dump(o, open(f"{out}/osm_farms.json", "w"), ensure_ascii=False)
     print("osm elements", len(o.get("elements", [])))
+    # light basemap for stills / film: motorways and main roads, rail, rivers and lakes, forests
+    q = f"""[out:json][timeout:240];(
+      way["highway"~"^(motorway|trunk|primary)$"]({s},{w},{n},{e});
+      way["railway"="rail"]["service"!~"."]({s},{w},{n},{e});
+      way["waterway"="river"]({s},{w},{n},{e});
+      nwr["natural"="water"]["water"~"lake|reservoir"]({s},{w},{n},{e});
+    );out geom;"""
+    json.dump(ovp(q), open(f"{out}/basemap.json", "w"))
     b = S.get(NOM, params={"q": "München", "format": "geojson", "polygon_geojson": 1, "limit": 1, "featuretype": "city"}, timeout=60).json()
     json.dump(b, open(f"{out}/muenchen_boundary.geojson", "w"))
     print("boundary", b["features"][0]["geometry"]["type"] if b.get("features") else None)
