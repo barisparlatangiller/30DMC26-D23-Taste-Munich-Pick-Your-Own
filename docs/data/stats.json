@@ -1,0 +1,28 @@
+{
+ "n": 59,
+ "kinds": {
+  "berries": 31,
+  "flowers": 19,
+  "pumpkins": 2,
+  "plots": 7
+ },
+ "from_research": 32,
+ "from_osm_names": 27,
+ "farmshops": 251,
+ "selfservice": 12,
+ "osm_pick_your_own_tag": 0,
+ "open_by_month": {
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 19,
+  "5": 45,
+  "6": 49,
+  "7": 49,
+  "8": 28,
+  "9": 29,
+  "10": 26,
+  "11": 0,
+  "12": 0
+ }
+}

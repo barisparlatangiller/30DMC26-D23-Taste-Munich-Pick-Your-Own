@@ -1,0 +1,60 @@
+name,operator,kind,crops,months,lat,lon,location_precision,website,source
+Erlebnisfeld Lochhausen,Hofis (Hofreiter),berries,strawberry;raspberry;blueberry;currant;cherry;vegetables;pumpkin;maize maze,5-10,48.17444,11.42106,crossing,https://www.hofis.com/de,in-muenchen.de 2026; kindaling
+Erlebnisfeld Feldmoching,Hofis (Hofreiter),berries,strawberry;raspberry;blueberry;currant;cherry;vegetables;pumpkin,5-10,48.19962,11.52438,address,https://www.hofis.com/de,in-muenchen.de 2026; kindaling
+Erlebnisfeld Johanneskirchen,Hofis (Hofreiter),berries,strawberry;raspberry;blueberry;currant;vegetables;pumpkin,5-10,48.16196,11.65032,crossing,https://www.hofis.com/de,in-muenchen.de 2026
+Erlebnisfeld Pasing,Hofis (Hofreiter),berries,strawberry;raspberry;blueberry;currant;vegetables;pumpkin,5-10,48.13602,11.46258,street,https://www.hofis.com/de,in-muenchen.de 2026
+Erlebnisfeld Unterhaching,Hofis (Hofreiter),berries,strawberry;raspberry;blueberry;vegetables,5-9,48.06234,11.64604,street,https://www.hofis.com/de,in-muenchen.de 2026
+Feld Perlach,Erdbeer-Lang,berries,strawberry,5-7,48.09036,11.62438,street,https://erdbeer-lang.de,in-muenchen.de 2026
+Feld Taufkirchen,Erdbeer-Lang,berries,strawberry,5-7,48.05454,11.60262,street,https://erdbeer-lang.de,in-muenchen.de 2026
+Feld Putzbrunn,Erdbeer-Lang,berries,strawberry,5-7,48.083,11.68172,street,https://erdbeer-lang.de,in-muenchen.de 2026
+Feld Vaterstetten,Erdbeer-Lang,berries,strawberry,5-7,48.13146,11.76668,street,https://erdbeer-lang.de,in-muenchen.de 2026
+Feld Hofolding,Erdbeer-Lang,berries,strawberry,5-7,47.98034,11.70647,street,https://erdbeer-lang.de,in-muenchen.de 2026
+Feld Neuaubing,Familie Wolf,berries,strawberry,5-7,48.15054,11.4034,street,https://erdbeeren-wolf.de,in-muenchen.de 2026
+Feld Puchheim / Eichenau,Familie Wolf,berries,strawberry,5-7,48.16814,11.36766,street,https://erdbeeren-wolf.de,in-muenchen.de 2026
+Feld Puchheim Laurenzerweg,Familie Wolf,berries,strawberry,5-7,48.15323,11.34308,street,https://erdbeeren-wolf.de,in-muenchen.de 2026
+Feld Fürstenfeldbruck-Puch,Familie Wolf,berries,strawberry,5-7,48.18846,11.22092,locality,https://erdbeeren-wolf.de,in-muenchen.de 2026
+Feld Maisach,Familie Wolf,berries,strawberry,5-7,48.21608,11.27049,street,https://erdbeeren-wolf.de,in-muenchen.de 2026
+Feld Jesenwang,Familie Wolf,berries,strawberry,5-7,48.16736,11.13362,locality,https://erdbeeren-wolf.de,in-muenchen.de 2026
+Feld Feldafing-Wieling,Storz Erdbeerkulturen,berries,strawberry,6-7,47.95342,11.2672,street,https://storz-erdbeerkulturen.de,in-muenchen.de 2026
+Feld Perchting,Storz Erdbeerkulturen,berries,strawberry,6-7,48.00039,11.2845,street,https://storz-erdbeerkulturen.de,in-muenchen.de 2026
+Feld Icking,Storz Erdbeerkulturen,berries,strawberry,6-7,47.97183,11.45003,street,https://storz-erdbeerkulturen.de,in-muenchen.de 2026
+Feld Buchendorf,Eberle Gärten,berries,strawberry;raspberry;currant,6-8,48.05655,11.40215,locality,https://eberle-gaerten.de,mitvergnuegen 2026
+Beerengarten Rothschwaige,Beerengarten Rothschwaige,berries,strawberry;raspberry;blueberry;currant,5-9,48.23986,11.45561,address,https://beeren-garten.de,mitvergnuegen 2026; in-muenchen.de 2026
+Blumenfeld Pasing,Morigl Hof,flowers,flowers,4-10,48.13427,11.46271,address,,secretmuenchen
+Blumenfeld Moosach,Morigl Hof,flowers,flowers,4-10,48.18692,11.51212,address,,secretmuenchen
+Kürbis-Selbstbedienung Aubing,Self-service stand,pumpkins,pumpkin,9-10,48.1116,11.45264,address,,1000things 2026
+Blumenfeld & Kürbis Am Hochacker,Field stand,pumpkins,pumpkin;flowers,8-10,48.10553,11.66813,street,,1000things 2026
+Krautgarten Aschheim,Stadtgüter München,plots,vegetables,5-11,48.17135,11.71603,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+Krautgarten Berg am Laim,Stadtgüter München,plots,vegetables,5-11,48.12348,11.63345,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+Krautgarten Daglfing,Stadtgüter München,plots,vegetables,5-11,48.14964,11.64931,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+Krautgarten Gronsdorf,Stadtgüter München,plots,vegetables,5-11,48.11836,11.69884,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+Krautgarten Perlach,Stadtgüter München,plots,vegetables,5-11,48.09341,11.63152,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+Krautgarten Riem,Stadtgüter München,plots,vegetables,5-11,48.14397,11.67777,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+Krautgarten Trudering,Stadtgüter München,plots,vegetables,5-11,48.12317,11.66408,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+Blumen selber schneiden,,flowers,flowers,4-10,48.13652,11.47238,osm,,OpenStreetMap node/5333652513
+Erdbeeren zum selber Pflücken,Hofreiter,berries,strawberry,5-7,48.20256,11.65179,osm,https://www.hofreiter.de/ernten/,OpenStreetMap node/6479943446
+"Erdbeerfeld zum Selberpflücken Familie Wolf - Spargel, Erdbeeren, Äpfel","Familie Wolf - Spargel, Erdbeeren, Äpfel",berries,strawberry,5-7,48.19118,11.22781,osm,https://www.erdbeeren-wolf.de,OpenStreetMap node/7359899347
+Spargelstand und Erdbeerfeld zum Selberpflücken,"Familie Wolf - Spargel, Erdbeeren, Äpfel",berries,strawberry,5-7,48.15732,11.33399,osm,https://www.erdbeeren-wolf.de/,OpenStreetMap node/7359899358
+Blumen selber schneiden,,flowers,flowers,4-10,48.23667,11.35486,osm,,OpenStreetMap node/7990031542
+Blumenfeld zum Selbstpflücken,,flowers,flowers,4-10,48.09756,11.08272,osm,,OpenStreetMap node/9848896889
+"Spargelstand und Erdbeerfeld zum Selberpflücken Familie Wolf - Spargel, Erdbeeren, Äpfel","Familie Wolf - Spargel, Erdbeere, Äpfel",berries,strawberry,5-7,48.13819,11.36744,osm,https://www.erdbeeren-wolf.de/,OpenStreetMap node/13651631835
+Erdbeerfeld zum Selberpflücken,"Familie Wolf - Spargel, Erdbeeren, Äpfel",berries,strawberry,5-7,48.15714,11.34061,osm,https://www.erdbeeren-wolf.de,OpenStreetMap node/13651656822
+Erdbeerfeld zum Selberpflücken Familie Wolf,"Familie Wolf - Spargel, Erdbeeren, Äpfel",berries,strawberry,5-7,48.29554,11.17201,osm,https://www.erdbeeren-wolf.de,OpenStreetMap node/13651704570
+"Apfelfeld Familie Wolf - Spargel, Erdbeeren, Äpfel","Familie Wolf - Spargel, Erdbeeren, Äpfel",berries,apple,9-10,48.22476,11.2357,osm,https://www.erdbeeren-wolf.de,OpenStreetMap way/30688219
+Blumen selber schneiden,,flowers,flowers,4-10,48.08113,11.39761,osm,,OpenStreetMap way/90188468
+Erdbeerfeld,,berries,strawberry,5-7,47.99827,11.26519,osm,,OpenStreetMap way/94670749
+Blumen selber schneiden,,flowers,flowers,4-10,48.02679,11.49247,osm,,OpenStreetMap way/166521307
+Blumen selber schneiden,,flowers,flowers,4-10,48.22198,11.35405,osm,,OpenStreetMap way/184551394
+Blumen selber schneiden,,flowers,flowers,4-10,48.05753,11.36882,osm,,OpenStreetMap way/294672313
+Blumen selber schneiden,,flowers,flowers,4-10,48.17579,11.45425,osm,,OpenStreetMap way/297190124
+Blumen selber schneiden,,flowers,flowers,4-10,48.10345,11.43993,osm,,OpenStreetMap way/416465935
+Blumen selber schneiden,,flowers,flowers,4-10,48.07263,11.39123,osm,,OpenStreetMap way/416467708
+Blumen selber schneiden,,flowers,flowers,4-10,48.12548,11.43924,osm,,OpenStreetMap way/416469349
+Blumen selber schneiden,,flowers,flowers,4-10,48.1357,11.43833,osm,,OpenStreetMap way/416469789
+Blumen selber schneiden,,flowers,flowers,4-10,47.86026,11.16369,osm,,OpenStreetMap way/416513782
+Blumen selber schneiden,,flowers,flowers,4-10,48.09056,11.46959,osm,,OpenStreetMap way/421434443
+Blumen selber schneiden,,flowers,flowers,4-10,48.1314,11.45069,osm,,OpenStreetMap way/436451559
+Blumen selber schneiden,,flowers,flowers,4-10,48.12504,11.35548,osm,,OpenStreetMap way/500788554
+Blumen selber schneiden,,flowers,flowers,4-10,48.1342,11.44367,osm,,OpenStreetMap way/586104909
+Erdbeerfeld Vaterstetten,,berries,strawberry,5-7,48.11998,11.76655,osm,,OpenStreetMap way/1292858143
+selbsternte Acker,kraft_hof,berries,berries,5-9,48.22309,11.51946,osm,,OpenStreetMap way/1546520857

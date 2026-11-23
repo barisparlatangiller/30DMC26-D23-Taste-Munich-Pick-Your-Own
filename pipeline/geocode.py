@@ -24,11 +24,16 @@ def nom(**p):
 
 
 def ovp(q):
-    for k in range(3):
-        r = S.post(OVP, data={"data": q}, timeout=300)
-        if r.ok:
-            return r.json()
-        print("overpass", r.status_code, flush=True); time.sleep(20)
+    for k in range(6):
+        url = [OVP, "https://overpass.kumi.systems/api/interpreter", "https://overpass.private.coffee/api/interpreter"][k % 3]
+        try:
+            r = S.post(url, data={"data": q}, timeout=300)
+            if r.ok:
+                return r.json()
+            print("overpass", url, r.status_code, flush=True)
+        except Exception as e:
+            print("overpass", url, e, flush=True)
+        time.sleep(10)
     return {"elements": []}
 
 
