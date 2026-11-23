@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pick Your Own Munich</title>
+<meta name="description" content="#30DayMapChallenge 2026 · Day 23 · Taste. Where around Munich can you pick your own strawberries, cut your own flowers or grow your own vegetables? A seasonal map.">
+<meta property="og:title" content="Pick your own Munich">
+<meta property="og:description" content="Strawberry fields, flower fields and vegetable plots around Munich, month by month.">
+<meta property="og:image" content="https://barisparlatangiller.github.io/30DMC26-D23-Taste-Munich-Pick-Your-Own/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<link href="style.css?v=1" rel="stylesheet">
+</head>
+<body>
+<div id="map"></div>
+<div class="legend" id="legend"></div>
+
+<aside class="panel">
+  <div class="eb">#30DayMapChallenge · Day 23 · Taste · Munich</div>
+  <h1>Pick your own Munich</h1>
+  <p class="sub">Where around Munich can you pick your own strawberries, cut your own flowers or grow your own vegetables, and when?</p>
+
+  <div class="kpis" id="kpis"></div>
+
+  <h2>Month <span class="mono" id="mlabel">all year</span></h2>
+  <div id="cal"></div>
+  <p class="fine" id="calnote"></p>
+
+  <h2>Show</h2>
+  <div id="kinds"></div>
+  <label class="tog"><input type="checkbox" id="shops"> Farm shops &amp; honesty huts (buy, don't pick)</label>
+
+  <div id="card" class="card hide"></div>
+
+  <details>
+    <summary>Method and limits</summary>
+    <p><b>Fields.</b> Pick-your-own fields, flower fields and pumpkin stands named by the farms and by Munich city guides for the 2026 season (Hofis/Hofreiter, Erdbeer-Lang, Familie Wolf, Storz, Eberle, Beerengarten Rothschwaige, Morigl Hof), plus the city's seven Krautgärten (vegetable plots you rent for a season and harvest yourself).
+      Locations were geocoded from the addresses and street corners the sources give: a dot marks the address, the corner, the street or, where only a village is named, the village.</p>
+    <p><b>OpenStreetMap.</b> Not one feature in the region carries the tag <code>pick_your_own=yes</code>. What OSM knows sits in names: "Blumen selber schneiden", "Erdbeerfeld zum Selberpflücken". Those are added when no researched field of the same kind is within 400 m. Farm shops (<code>shop=farm</code>) are shown as context.</p>
+    <p><b>Seasons.</b> From the sources where given; otherwise typical Bavarian seasons: strawberries May–July, raspberries, blueberries and currants July–September, cherries June–July, apples September–October, flowers April–October, pumpkins September–October, Krautgärten May–mid-November.</p>
+    <p><b>Check before you go.</b> Strawberry fields move every year (crop rotation) and open only when the fruit is ripe. Farms post the open fields each day on their websites.</p>
+    <p class="fine">Data: © OpenStreetMap contributors (ODbL) · farm websites and Munich city guides (in-muenchen.de, mitvergnuegen.com, rausgegangen.de, 1000things, secretmuenchen.com, stadt.muenchen.de), accessed Nov 2026 · Basemap © CARTO.</p>
+  </details>
+  <p class="fine"><a href="data/places.csv" download>⬇ All places (CSV)</a> · Barış Parlatangiller · <a href="https://barisparlatangiller.github.io/">30 maps</a> · <a href="https://github.com/barisparlatangiller/30DMC26-D23-Taste-Munich-Pick-Your-Own">code</a></p>
+</aside>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="app.js?v=1"></script>
+</body>
+</html>
