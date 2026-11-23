@@ -1,0 +1,22 @@
+name: Geocode places + OSM farms
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/fetch.yml", "pipeline/geocode.py", "data/places.csv"]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q requests
+      - run: python pipeline/geocode.py data/places.csv /tmp/out
+      - name: Push to branch fetched
+        run: |
+          cd /tmp/out
+          git init -q -b fetched && git config user.name "github-actions" && git config user.email "actions@github.com"
+          git add -A && git commit -q -m "geocode $(date -u +%F)"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" fetched

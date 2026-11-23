@@ -1,0 +1,35 @@
+id,operator,label,kind,crops,months,town,q1,q2,precision,url,source
+hofis_lochhausen,Hofis (Hofreiter),Erlebnisfeld Lochhausen,pick,"strawberry;raspberry;blueberry;currant;cherry;vegetables;pumpkin;maize maze",5-10,München-Lochhausen,Lochhausener Straße,Purpurweidenweg,crossing,https://www.hofis.com/de,in-muenchen.de 2026; kindaling
+hofis_feldmoching,Hofis (Hofreiter),Erlebnisfeld Feldmoching,pick,"strawberry;raspberry;blueberry;currant;cherry;vegetables;pumpkin",5-10,München-Feldmoching,Feldmochinger Straße 436,,address,https://www.hofis.com/de,in-muenchen.de 2026; kindaling
+hofis_johanneskirchen,Hofis (Hofreiter),Erlebnisfeld Johanneskirchen,pick,"strawberry;raspberry;blueberry;currant;vegetables;pumpkin",5-10,München-Johanneskirchen,Savitsstraße,Stegmühlstraße,crossing,https://www.hofis.com/de,in-muenchen.de 2026
+hofis_pasing,Hofis (Hofreiter),Erlebnisfeld Pasing,pick,"strawberry;raspberry;blueberry;currant;vegetables;pumpkin",5-10,München-Pasing,Blumenauer Straße,,street,https://www.hofis.com/de,in-muenchen.de 2026
+hofis_unterhaching,Hofis (Hofreiter),Erlebnisfeld Unterhaching,pick,"strawberry;raspberry;blueberry;vegetables",5-9,Unterhaching,Ottobrunner Straße,,street,https://www.hofis.com/de,in-muenchen.de 2026
+lang_perlach,Erdbeer-Lang,Feld Perlach,pick,strawberry,5-7,München-Perlach,Unterhachinger Straße,,street,https://erdbeer-lang.de,in-muenchen.de 2026
+lang_taufkirchen,Erdbeer-Lang,Feld Taufkirchen,pick,strawberry,5-7,Taufkirchen,Waldstraße,Oberweg,crossing,https://erdbeer-lang.de,in-muenchen.de 2026
+lang_putzbrunn,Erdbeer-Lang,Feld Putzbrunn,pick,strawberry,5-7,Putzbrunn,Münchner Straße,,street,https://erdbeer-lang.de,in-muenchen.de 2026
+lang_vaterstetten,Erdbeer-Lang,Feld Vaterstetten,pick,strawberry,5-7,Vaterstetten,Vaterstettener Straße,,street,https://erdbeer-lang.de,in-muenchen.de 2026
+lang_hofolding,Erdbeer-Lang,Feld Hofolding,pick,strawberry,5-7,Hofolding,Otterfinger Straße,,street,https://erdbeer-lang.de,in-muenchen.de 2026
+wolf_neuaubing,Familie Wolf,Feld Neuaubing,pick,strawberry,5-7,München-Neuaubing,Hörweg,Germeringer Weg,crossing,https://erdbeeren-wolf.de,in-muenchen.de 2026
+wolf_eichenau,Familie Wolf,Feld Puchheim / Eichenau,pick,strawberry,5-7,Puchheim,Eichenauer Straße,,street,https://erdbeeren-wolf.de,in-muenchen.de 2026
+wolf_laurenzer,Familie Wolf,Feld Puchheim Laurenzerweg,pick,strawberry,5-7,Puchheim,Oberer Laurenzerweg,,street,https://erdbeeren-wolf.de,in-muenchen.de 2026
+wolf_puch,Familie Wolf,Feld Fürstenfeldbruck-Puch,pick,strawberry,5-7,Puch (Fürstenfeldbruck),,,locality,https://erdbeeren-wolf.de,in-muenchen.de 2026
+wolf_maisach,Familie Wolf,Feld Maisach,pick,strawberry,5-7,Maisach,Estinger Straße,,street,https://erdbeeren-wolf.de,in-muenchen.de 2026
+wolf_jesenwang,Familie Wolf,Feld Jesenwang,pick,strawberry,5-7,Jesenwang,,,locality,https://erdbeeren-wolf.de,in-muenchen.de 2026
+wolf_wagenhofen,Familie Wolf,Feld Wagenhofen,pick,"strawberry;apple",5-10,Wagenhofen (Egenhofen),,,locality,https://erdbeeren-wolf.de,in-muenchen.de 2026; mitvergnuegen 2026
+storz_wieling,Storz Erdbeerkulturen,Feld Feldafing-Wieling,pick,strawberry,6-7,Wieling (Feldafing),Olympiastraße,,street,https://storz-erdbeerkulturen.de,in-muenchen.de 2026
+storz_perchting,Storz Erdbeerkulturen,Feld Perchting,pick,strawberry,6-7,Perchting,Andechser Straße,,street,https://storz-erdbeerkulturen.de,in-muenchen.de 2026
+storz_icking,Storz Erdbeerkulturen,Feld Icking,pick,strawberry,6-7,Icking,Münchner Straße,,street,https://storz-erdbeerkulturen.de,in-muenchen.de 2026
+eberle_frohnloh,Eberle Gärten,Feld Frohnloh,pick,"strawberry;raspberry;currant",6-8,Frohnloh (Gauting),,,locality,https://eberle-gaerten.de,mitvergnuegen 2026
+eberle_buchendorf,Eberle Gärten,Feld Buchendorf,pick,"strawberry;raspberry;currant",6-8,Buchendorf (Gauting),,,locality,https://eberle-gaerten.de,mitvergnuegen 2026
+rothschwaige,Beerengarten Rothschwaige,Beerengarten Rothschwaige,pick,"strawberry;raspberry;blueberry;currant",5-9,Karlsfeld,Münchner Straße 15,,address,https://beeren-garten.de,mitvergnuegen 2026; in-muenchen.de 2026
+morigl_pasing,Morigl Hof,Blumenfeld Pasing,flowers,flowers,4-10,München-Pasing,Schlagweg 8,,address,,secretmuenchen
+morigl_moosach,Morigl Hof,Blumenfeld Moosach,flowers,flowers,4-10,München-Moosach,Holledauer Straße 39,,address,,secretmuenchen
+kuerbis_aubing,Self-service stand,Kürbis-Selbstbedienung Aubing,pumpkin,pumpkin,9-10,München,Bertha-von-Suttner-Weg 1,,address,,1000things 2026
+kuerbis_hochacker,Field stand,Blumenfeld & Kürbis Am Hochacker,pumpkin,"pumpkin;flowers",8-10,München,Am Hochacker,,street,,1000things 2026
+kraut_aschheim,Stadtgüter München,Krautgarten Aschheim,plot,vegetables,5-11,Aschheim,,,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+kraut_bergamlaim,Stadtgüter München,Krautgarten Berg am Laim,plot,vegetables,5-11,München-Berg am Laim,,,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+kraut_daglfing,Stadtgüter München,Krautgarten Daglfing,plot,vegetables,5-11,München-Daglfing,,,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+kraut_gronsdorf,Stadtgüter München,Krautgarten Gronsdorf,plot,vegetables,5-11,Gronsdorf,,,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+kraut_perlach,Stadtgüter München,Krautgarten Perlach,plot,vegetables,5-11,München-Perlach,,,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+kraut_riem,Stadtgüter München,Krautgarten Riem,plot,vegetables,5-11,München-Riem,,,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
+kraut_trudering,Stadtgüter München,Krautgarten Trudering,plot,vegetables,5-11,München-Trudering,,,locality,https://stadt.muenchen.de/infos/muenchner-krautgaerten.html,stadt.muenchen.de
