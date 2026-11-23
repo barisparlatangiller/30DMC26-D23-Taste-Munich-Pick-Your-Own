@@ -1,0 +1,31 @@
+name: Light basemap from Geofabrik (Oberbayern)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/basemap.yml"]
+permissions:
+  contents: write
+jobs:
+  base:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - run: sudo apt-get -qq update && sudo apt-get -qq install -y osmium-tool gdal-bin > /dev/null
+      - name: Download + cut
+        run: |
+          mkdir -p /tmp/b /tmp/out && cd /tmp/b
+          curl -fsSL --retry 4 --retry-all-errors -o ob.pbf https://download.geofabrik.de/europe/germany/bayern/oberbayern-latest.osm.pbf
+          ls -la ob.pbf
+          osmium extract -b 10.95,47.8,12.2,48.5 ob.pbf -o m.pbf --overwrite
+          osmium tags-filter m.pbf w/highway=motorway,trunk,primary,secondary w/railway=rail w/waterway=river nwr/natural=water nwr/landuse=forest nwr/natural=wood n/place=village,hamlet,town,suburb,city -o f.pbf --overwrite
+          ogr2ogr -f GeoJSON /tmp/out/lines.geojson f.pbf lines -select highway,railway,waterway -lco COORDINATE_PRECISION=5
+          ogr2ogr -f GeoJSON /tmp/out/polys.geojson f.pbf multipolygons -select natural,landuse -lco COORDINATE_PRECISION=5
+          ogr2ogr -f GeoJSON /tmp/out/places.geojson f.pbf points -select name,place -where "place IS NOT NULL"
+          ls -la /tmp/out
+      - name: Push
+        run: |
+          cd /tmp/out
+          git init -q -b basemap && git config user.name "github-actions" && git config user.email "actions@github.com"
+          git add -A && git commit -q -m "basemap $(date -u +%F)"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" basemap
